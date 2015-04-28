@@ -1,5 +1,8 @@
 # keen-play
 
+- bundle exec ruby run_events.rb
+- bundle exec ruby run_query.rb
+
 TODO: Before `keen-gem` (https://github.com/keenlabs/keen-gem) supports post query, we need to modify the file in the gem:
 
 - keen-gem/lib/keen/client/querying_methods.rb
