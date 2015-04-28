@@ -42,7 +42,8 @@ result = Keen.funnel(
     ]
   },
   {
-    response: :all_keys
+    response: :all_keys,
+    method: :post
   }
 )
 
@@ -92,7 +93,8 @@ result = Keen.funnel(
     ]
   },
   {
-    response: :all_keys
+    response: :all_keys,
+    method: :post
   }
 )
 puts "TIME: #{Time.now - time}"
